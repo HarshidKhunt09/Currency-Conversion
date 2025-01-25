@@ -89,6 +89,7 @@ Use Postman or any HTTP client to send a POST request to the following endpoint:
 **Error (400)**: Invalid input
 ```json
 {
+  "message": "Currency conversion failed. Please try again later.",
   "error": "Invalid input. Please provide 'fromCurrency', 'toCurrency', and a valid 'amount'."
 }
 ```
@@ -96,6 +97,7 @@ Use Postman or any HTTP client to send a POST request to the following endpoint:
 **Error (404)**: Unsupported currency code
 ```json
 {
+  "message": "Currency conversion failed. Please try again later.",
   "error": "Unsupported currency code provided."
 }
 ```
